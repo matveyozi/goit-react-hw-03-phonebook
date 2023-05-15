@@ -1,0 +1,10 @@
+.list {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.item {
+	list-style-type: none;
+	border-bottom: solid 1px black;
+	padding-bottom: 20px;
+}
